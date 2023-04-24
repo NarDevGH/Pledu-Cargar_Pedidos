@@ -1,0 +1,83 @@
+
+body{
+    height: 100vh;  /* vh = viewport height.*/
+    margin: 20px;
+    background-color: #0e1c44;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center
+}
+
+
+button{
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    padding: 15px 20px;
+    margin-left: 15px;
+    background-color: #ff1e42;
+    border-radius: 5px;
+}
+
+button,input {
+    border: none;
+    outline: none;
+    color: white;
+}
+
+
+input{
+    font-size: 1.5rem;
+    text-align: center;
+    height: 25px;
+    padding: 5px 5px 10px;
+    background: none;
+    border-bottom: 1px solid gray;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.datos-pedido {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.confirmaciones {
+    background-color: white;
+    color: #1e2432;
+    width: 50%;
+    border-radius: 20px;
+    padding: 12px;
+    margin: 0 auto;
+    min-height: 180px;
+}
+
+.btn-container {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+ul {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    text-decoration: none;
+    list-style: none;
+}
+  
+li {
+    margin: 12px;
+    font-size: 16px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 2em;
+}
